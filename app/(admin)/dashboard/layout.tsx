@@ -8,7 +8,7 @@ const font = Inter({
 
 export const metadata: Metadata = {
   title: "Dashboard | Hekto Web",
-  description: "Fast Food Items here ",
+  description: "Furniture Items here ",
 };
 
 export default function RootLayout({
