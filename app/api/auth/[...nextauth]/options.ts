@@ -30,7 +30,7 @@ export const options: NextAuthOptions = {
         // to verify with credentials
         // Docs: https://next-auth.js.org/configuration/providers/credentials
         console.log("User trying to login:", credentials)
-        const user = { id: "42", email: "ayesha@gmail.com", password: "ayesha1212" };
+        const user = { id: "42", email: process.env.NEXT_SECRET_EMAIL, password: process.env.NEXT_SECRET_PASSWORD };
 
         
         if (!credentials?.username || !credentials?.password) {

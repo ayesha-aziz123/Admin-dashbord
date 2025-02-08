@@ -187,7 +187,7 @@ export default function Layout(props: Props) {
           color: "#2f2f2f",
         }}
       >
-        <div className="flex justify-between">
+        <div className="flex justify-between bg-[#13132e] text-white ">
           <Toolbar>
             <IconButton
               color="inherit"
@@ -199,13 +199,13 @@ export default function Layout(props: Props) {
               <MenuIcon />
             </IconButton>
 
-            <Typography variant="h6" noWrap component="div">
-              Dashboard
+            <Typography className="text-2xl font-bold" variant="h6" noWrap component="div">
+              Dashboard 
             </Typography>
           </Toolbar>
-          <div className="mt-3 mr-3 cursor-pointer" onClick={() => userLogout()}>
+          <div className="mt-3 mr-3 hover:text-red-500 transition-all ease-in hover:scale-105 cursor-pointer" onClick={() => userLogout()}>
             <Typography variant="h6" noWrap component="div">
-              <LogoutIcon /> Logout
+              <LogoutIcon  className=""/> Logout
             </Typography>
           </div>
         </div>

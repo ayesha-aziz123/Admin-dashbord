@@ -5,7 +5,7 @@ import Tool from "./charts/Tool";
 const Analytics = () => {
   return (
     <>
-      <h1 className="text-lg mb-2">Analytics</h1>
+      <h1 className="text-2xl font-bold mb-2">Analytics</h1>
       <div className="grid grid-cols-1 md:grid-cols-12  md:gap-4">
         <div className="col-span-5 rounded-lg shadow-lg md:px-4 py-4 bg-white">
           <PieChart />

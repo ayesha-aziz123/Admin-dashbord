@@ -8,7 +8,7 @@ const font = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Analytics | Food Tuck",
+  title: "Dashboard | Food Tuck",
   description: "Fast Food Items here ",
 };
 
@@ -19,13 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} ${font.className} antialiased`}>
-        <div className="max-w-[1920px] mx-auto ">
-          <Layout>
-          {children}
-
-          </Layout>
-          </div>
+      <body className={`${font.className} ${font.className} bg-gray-900 antialiased`}>
+        <div className="max-w-[1920px] mx-auto"> 
+          <Layout>{children}</Layout>
+        </div>
       </body>
     </html>
   );
