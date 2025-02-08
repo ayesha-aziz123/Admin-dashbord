@@ -8,7 +8,7 @@ const font = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Analytics | Food Tuck",
+  title: "Analytics | Hekto Web",
   description: "Fast Food Items here ",
 };
 
