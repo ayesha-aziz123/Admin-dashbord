@@ -8,8 +8,8 @@ const font = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Analytics | Food Tuck",
-  description: "Fast Food Items here ",
+  title: "Analytics | Hekto Web",
+  description: "Furniture Items here ",
 };
 
 export default function RootLayout({
