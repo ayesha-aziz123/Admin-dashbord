@@ -8,7 +8,7 @@ const font = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Dashboard | Hrkto Web",
+  title: "Dashboard | Hekto Web",
   description: "Furniture Items here ",
 };
 
